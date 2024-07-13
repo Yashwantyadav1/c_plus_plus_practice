@@ -1,4 +1,4 @@
-// print the Even nummber by  taking input from the user
+// print the Odd nummber by  taking input from the user
 
 
 #include<iostream>
@@ -7,7 +7,7 @@ int main(){
     int i,n;
     cout<<"Enter your number"<<endl;
     cin>>n;
-    for(i=0;i<=n;i=i+2){
+    for(i=1;i<=n;i=i+2){
         cout<< i << endl;
 
     }
