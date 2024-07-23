@@ -4,8 +4,9 @@ using namespace std;
 int main(){
 
     int rowCount,colCount;
-
+    cout<<"Enter the row number "<<endl;
     cin>>rowCount;
+    cout<<"Enter the column number "<<endl;
     cin>>colCount;
     // Enetr the outer loop 
     for(int row=0; row<rowCount;row=row+1){
